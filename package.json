@@ -1,0 +1,14 @@
+{
+  "name": "primer-app",
+  "version": "1.0.0",
+  "description": "PRIMER APP DE ELECTRON",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "AGUILAR <nicole_a51@outlook.es>",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^7.1.10"
+  }
+}

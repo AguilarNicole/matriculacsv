@@ -1,0 +1,50 @@
+<html>
+  <head>
+      <meta charset="UTF-8">
+      <!-- https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP -->
+      <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+      <meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+      <meta charset="utf-8">
+      <title>Matricula</title>
+      <meta http-equiv="X-UA-Compartible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="css/app.css"/>
+      <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+    <link href="main.css" rel="stylesheet" type="text/css"/>
+  </head>
+
+  <body>
+    <br>
+    <h1 align = "center">Matricula</h1>
+    <br/>
+    <div id = "contenedor">
+    <form id = "matricula-avanzada">
+
+      <div class="casilla">
+        <label for = "Identidad">Numero de Identidad</label>
+        <input type = "text" id="identidad" name="identidad">
+        <label for = "Name">Primer Nombre</label>
+        <input type = "text" id = "name" name="name">
+        <label for ="Apellido">Primer Apellido</label>
+        <input type = "text" id = "apellido" name="apellido">
+        <label for = "Age">Edad</label>
+          <input type = "text" id = "edad" name="edad">
+          <label for = "telefono">Telefono/Celular</label>
+          <input type = "text" id = "telefono" name="telefono">
+    </form>
+  
+  </div>
+  <br>
+  <div id="contenedor" align = "center"></div>
+    <form id="form_matricula">
+  <input type="submit" value="Guardar" id="save">
+  <input type="submit" value="Ver Lista" id="read">
+</form>
+</div>
+</br>
+
+    <!-- You can also require other files to run in this process -->
+  
+    <script type ="text/javascript" src="form.js"></script>
+  </body>
+</html>
